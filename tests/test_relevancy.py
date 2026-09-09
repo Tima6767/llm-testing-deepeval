@@ -50,7 +50,7 @@ def test_relevancy_first_computer():
 
 def test_relevancy_end_of_world_war_two():
 
-    input_text="When did World War 2 end?"
+    input_text="When did World War II end? Answer in one short sentence."
     actual_output=ask_llm(input_text)
 
     test_case=LLMTestCase(

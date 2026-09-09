@@ -11,6 +11,9 @@ def ask_llm(prompt):
             "model": MODEL_NAME,
             "prompt": prompt,
             "stream": False,
+            "options": {
+                "temperature": 0,
+            },
         },
         timeout=120,
     )
